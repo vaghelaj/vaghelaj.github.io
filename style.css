@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700,800');
 
+/* General CSS */
 body, html {
     margin: 0;
     padding: 0;
     color: #11111a;
     font-family: 'Raleway', sans-serif;
     border: 3.5px solid #f4efe8;
-    /* border: 5px solid #F0DBCE; */
 }
 
 h1 {
@@ -45,7 +45,9 @@ hr {
 ul {
     list-style-type: none;
 }
+/* General CSS End */
 
+/* Header Start */
 .heading-text-style {
     font-size: 10px;
     font-weight: 600;
@@ -85,7 +87,9 @@ ul {
     transition: 0.5s;
     cursor: pointer;
 }
+/* Header End */
 
+/* About Start */
 .social:hover {
     fill: #983E38;
 }
@@ -101,7 +105,9 @@ ul {
 #about-paragraph span{
     font-weight: 600;
 }
+/* About End */
 
+/* Work Start */
 #work-paragraph {
     width: 78%;
 }
@@ -125,7 +131,9 @@ ul {
     font-size: 12px;
     text-decoration: underline;
 }
+/* Work End */
 
+/* Project Start */
 #project-container {
     display: flex;
     justify-content: space-between;
@@ -194,7 +202,9 @@ ul {
     display: none;
     fill: #983E38;
 }
+/* Project End */
 
+/* Contact Start */
 #contact-container {
     position: relative;
     margin-bottom: 190px;
@@ -220,44 +230,16 @@ ul {
     text-transform: uppercase;
     letter-spacing: 1.5px;
 }
+/* Contact End */
 
-.pulsate {
-    animation: pulsate 3s ease-out;
-    -webkit-animation: pulsate 3s ease-out;
-    animation-iteration-count: infinite; 
-    -webkit-animation-iteration-count: infinite; 
-    opacity: 0.5;
-}
-
-@keyframes pulsate {
-    0% { 
-        opacity: 0.2;
-    }
-    50% { 
-        opacity: 1.0;
-    }
-    100% { 
-        opacity: 0.2;
-    }
-}
-
-@-webkit-keyframes pulsate {
-    0% { 
-        opacity: 0.2;
-    }
-    50% { 
-        opacity: 1.0;
-    }
-    100% { 
-        opacity: 0.2;
-    }
-}
-
+/* Footer Start */
 #footer {
     position: relative;
     text-align: center;
 }
+/* Footer End */
 
+/* Media Queries Start */
 @media only screen and (min-width: 425px) {
     #about-paragraph {
         width: 80%;
@@ -349,6 +331,40 @@ ul {
         width: 55%;
     }
 }
+/* Media Queries End */
+
+/* Animation Start */
+.pulsate {
+    animation: pulsate 3s ease-out;
+    -webkit-animation: pulsate 3s ease-out;
+    animation-iteration-count: infinite; 
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+}
+
+@keyframes pulsate {
+    0% { 
+        opacity: 0.2;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.2;
+    }
+}
+
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0.2;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.2;
+    }
+}
 
 .fade-in{
     animation: animationFrames ease 1.4s;
@@ -427,3 +443,4 @@ ul {
       -ms-transform:  translate(0px,0px);
     }
   }
+/* Animation End */
