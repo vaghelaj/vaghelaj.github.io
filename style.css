@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700,800');
-@import url('https://fonts.googleapis.com/css?family=Inria+Serif:700|Montserrat:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inria+Serif:700&display=swap');
 
 /* General CSS */
 body, html {
@@ -13,7 +13,6 @@ body, html {
 h1 {
     font-family: 'Inria Serif', serif;
     font-size: 70px;
-    font-weight: 800;
     margin: 0 0 30px 0;
 }
 
