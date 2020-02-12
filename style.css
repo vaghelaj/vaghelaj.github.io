@@ -114,7 +114,7 @@ ul {
 }
 
 #about-side-info {
-    margin-right: 157px;
+    margin-right: 130px;
 }
 
 #about-paragraph, #contact-paragraph {
@@ -419,9 +419,9 @@ ul {
 
 @media only screen and (min-width: 1024px) {
 
-    #main-container {
+    /* #main-container {
         width: 80%;
-    }
+    } */
 }
 
 /* Media Queries End */
