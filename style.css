@@ -417,12 +417,12 @@ ul {
     
 }
 
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
 
-    /* #main-container {
+    #main-container {
         width: 80%;
-    } */
-}
+    }
+} */
 
 /* Media Queries End */
 
