@@ -6,8 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="Personal project - Apartment Login/Signup UI">
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Jayesh Vaghela › Golf Club</title>
+
+   
 </head>
 <body>
     <div id="main-container" class="fade-in">
@@ -37,13 +41,25 @@
 
             <hr>
 
-            <div class="project-img">
+            <div class="project-img-container"  data-aos="fade-up" data-aos-duration="2100"  data-aos-once="true">
+                <div class="project-img">
+                    <img src="./images/GolfClubLandingPage.png" alt="">
+                </div>   
+                <h4 class="heading-text-style project-img-caption">01 Landing Page</h4>
+            </div>
+         
+            <div class="project-img-container" data-aos="fade-up" data-aos-duration="2100"  data-aos-once="true"  data-aos-anchor-placement="top-center"> 
+                <div class="project-img">
+                    <img src="./images/GolfClub.png" alt="">
+                </div>   
+                <h4 class="heading-text-style project-img-caption">02 Home Page</h4>
+            </div>
+
+               <!-- <div class="project-img">
                 <img src="./images/GolfClubLandingPage.png" alt="">
             </div>   
-            
-            <div class="project-img">
-                <img src="./images/GolfClub.png" alt="">
-            </div>
+            <h4 class="project-img-caption">Testing</h4> -->
+
 
             <h2 class="bigger-screen">Screenshots are available on the deskstop version of the site. Sorry!</h2>
            
@@ -56,5 +72,9 @@
 
         <p id="footer" class="heading-text-style-footer">Folio - 20</p>
     </div>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

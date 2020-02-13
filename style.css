@@ -3,8 +3,7 @@ body, html {
     margin: 0;
     padding: 0;
     color: #0C0900;
-    background-color: #F7F3F0;
-    /* background-color: #FCF0EC; */
+    background-color: #FFFFFF;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
@@ -30,7 +29,7 @@ a {
 }
 
 a:hover {
-    color: #ff0651;
+    color: #0617ff;
     text-decoration: underline;
 }
 
@@ -99,7 +98,7 @@ ul {
 }
 
 .social:hover {
-    fill: #ff0651;
+    fill: #0617ff;
 }
 /* Header End */
 
@@ -160,7 +159,7 @@ ul {
     align-items: flex-start;
     flex-wrap: wrap;
     flex-direction: row;
-    background: #f0ece9; 
+    background: #fafafa; 
     padding: 24.5px 35px 0px 35px; 
     box-sizing: border-box;
 }
@@ -222,14 +221,14 @@ ul {
     font-style: italic;
     font-weight: 600;
     color: #918885;
-    background-color: #f0ece9;
+    background-color: #fafafa;
     padding: 25px;
     box-sizing: border-box;
     line-height: 28px;    
     margin: 0px 0 100px 0;
 }
 
-.project-img, .project-mobile {
+.project-img, .project-mobile, .project-img-caption {
     display: none;
 }
 
@@ -259,12 +258,7 @@ ul {
 
 .next-project-title svg {
     display: none;
-    fill: #ff0651;
-}
-
-.couponcode {
-    color: red;
-    cursor: pointer;
+    fill: #0617ff;
 }
 
 /* Project End */
@@ -290,8 +284,8 @@ ul {
 #contact-availability-ad h4 {
     font-size: 11px;
     font-weight: 600;
-    color: #ff0651;
-    background-color: #f0ece9;
+    color: #0617ff;
+    background-color: #fafafa;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     padding: 9.5px 1px 9.5px 1px;
@@ -356,8 +350,22 @@ ul {
         justify-content: center;
         align-items: center;
         height: auto;
-        background: #f0ece9;
-        padding: 20px;
+        background: #fafafa;
+        padding: 80px 20px 80px 20px;
+        margin-bottom: 15px;
+    }
+
+    .project-img-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .project-img-caption {
+        font-weight: 400;
+        margin: 0 0 50px 0;
     }
 
     .project-mobile {
@@ -365,8 +373,9 @@ ul {
         justify-content: center;
         align-items: center;
         height: auto;
-        background: #f0ece9;
-        padding: 20px;
+        background: #fafafa;
+        padding: 80px 20px 80px 20px;
+        margin-bottom: 15px;
     }
 
     .project-mobile img {
@@ -377,7 +386,7 @@ ul {
         margin-right: 25px;
     }
 
-    .project-img img {
+    .project-img img, .project-img-caption {
         display: block;
     }
 
