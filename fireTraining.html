@@ -28,11 +28,9 @@
 
             <div class="project-side-info">
                 <p class="project-overview">
-                    A capstone project as part of my final college year. The team worked closely with the associated project supervisors and industry partners to implement a solution that will provide fire safety training using Microsoft HoloLens Mixed Reality technology. 
-                    <br> <br> 
-                    My role in the project was to design and develop a Android application that acts as an controller for initiating training processes.
+                    This is an educational project carried out as part of my 4th year at Sheridan College. The team worked closely with the associated project supervisors to implement a solution that will provide fire safety training using Microsoft HoloLens Mixed Reality technology. 
                     <br> <br>
-                    Side Note - We were awarded 1st place for our capstone project as well as IT Best Capstone Award for Potential World Impact 🏆 .
+                    Here's a video demo of the system being used, <span><a href="https://www.youtube.com/watch?v=Hy_DZmwogbM&feature=youtu.be">link.</a></span>
                 </p>
 
                 <div class="project-side">
@@ -50,37 +48,148 @@
             <hr>
 
             <div class="project-img-container" data-aos="fade-up" data-aos-duration="2100"  data-aos-once="true">
+                <div>
+                    <img src="./images/Firefighter.png" alt="" width=100%>
+                </div> 
+            </div>
+
+            <div class="project-content-sections">
+                <h2 class="heading-text-style">01 Beginnings</h2>   
+                <div>
+                    <h3>The Problem</h3>
+                    <p>
+                        There is a large number of individuals who lack hands-on fire safety training.  Some of the reasons that's causing this are, 
+                        <br>
+                        - Lack of publicly open fire safety training sessions
+                        <br>
+                        - Fire safety training is a very costly process. 
+                        <br>
+                        - Current training uses large sums of single use material 
+                    </p>
+                    
+                    <h3>The Solution</h3>
+                    <p> An augmented reality application that simulates the emergency fire situations and teaches the individual proper evacuation and extinguisher procedures in a safe and exciting way.</p>
+
+                    <h3>Role</h3>
+                    <p> 
+                        My role in the project was to design and develop a Android application that acts as an controller for initiating training processes.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-content-sections">
+                <h2 class="heading-text-style">02 / 01 Research</h2>   
+                <div>
+                    <h3>Identifying our users</h3>
+                    <p> Upon discussing with the team and associated supervisors, it was established that the system is going to be used by two different users. First user being the trainee, who part takes in acquiring fire safety training while the trainer (our second user) monitors and administrates the trainee's process during the entire training sessions. </p>
+
+                    <h3>Designing the infrastructure</h3>
+                    <p> Since we were implementing this system from the ground up, one of our major task was to design an infrastructure that would best structure the system and provide a seamless user experience. As well as distinguish the devices used by the respected users.</p>
+                </div>
+            </div>
+
+            <div class="project-img-container" data-aos="fade-up" data-aos-duration="2100"  data-aos-once="true"  data-aos-anchor-placement="top-center">
+                <div class="project-graphs">
+                    <img src="./images/infrastructure.png" alt="">
+                </div> 
+                <h4 class="heading-text-style project-img-caption">01 System Breakdown</h4>
+            </div>
+
+            <div class="project-img-container" data-aos="fade-up" data-aos-duration="2100"  data-aos-once="true"  data-aos-anchor-placement="top-center">
+                <div class="project-graphs">
+                    <img src="./images/users.png" alt="">
+                </div> 
+                <h4 class="heading-text-style project-img-caption">02 User Device Separation</h4>
+            </div>
+
+            <div class="project-content-sections">
+                <h2 class="heading-text-style">03 / 02 Process</h2>   
+                <div>
+                    <h3>Wireframes</h3>
+                    <p> 
+                        Since I was responsible for the designing the trainer Android application. I started out by first designing wireframes and my thinking throughout the designing phrase was to make the trainer have easy access to all the high-level controls that is required for setting up a training sessions. 
+                        <br> <br>
+                        The solution, a split screen layout where the left of the dashboard consists of the trainee’s information which updates as the training progresses while the right panel contains all the controls. For other information such as trainer information, trainee's session information are display in dialog boxes as those information are viewed either at the beginning or ending of a session.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-img-container" data-aos="fade-up" data-aos-duration="2100"  data-aos-once="true"  data-aos-anchor-placement="top-center">
+                <div class="project-img">
+                    <img src="./images/Wireframe-ControlScreen.png" alt="">
+                </div> 
+                <h4 class="heading-text-style project-img-caption">03 Main Dashboard Wireframe</h4>
+            </div>
+
+            <div class="project-img-container" data-aos="fade-up" data-aos-duration="2100"  data-aos-once="true"  data-aos-anchor-placement="top-center">
+                <div class="project-img">
+                    <img src="./images/Wireframe-StatScreen.png" alt="">
+                </div> 
+                <h4 class="heading-text-style project-img-caption">04 Trainee Stats Wireframe</h4>
+            </div>
+
+            <div class="project-content-sections">
+                <h2 class="heading-text-style">03 / 03 Process</h2>   
+                <div>
+                    <h3>Final designs</h3>
+                    <p> 
+                        As project moved forward, new features were added to the application and since we were a in time constraint the changes were directly implemented into the final designs.
+                        <br> <br>
+                        Some of changes included of a session information dialog, changing the start/stop simulation button position and introducing a restart simulation button. Reshuffling the controls panel UI controls such as using radio buttons instead of regular buttons as its more clear and  enforces the idea only one can be selected. 
+                        <br> <br>
+                        Also the fire level slider was removed and the difficulty slider component is replaced with radio buttons, this decision was made as a team since we felt that the difficulty and fire level values was redundant.
+                    </p>
+
+                    <h3>Development</h3>
+                    <p> 
+                        The application was developed in Android studios and is written in Java. The application uses a variety of Android packages, most important being Socket.io which helps the application communciate with the system's server.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-img-container" data-aos="fade-up" data-aos-duration="2100"  data-aos-once="true">
                 <div class="project-img">
                     <img src="./images/Form.png" alt="">
                 </div> 
-                <h4 class="heading-text-style project-img-caption">01 Session Information Form</h4>
+                <h4 class="heading-text-style project-img-caption">05 Session Information Form</h4>
             </div>
 
             <div class="project-img-container" data-aos="fade-up" data-aos-duration="2100"  data-aos-once="true"  data-aos-anchor-placement="top-center">
                 <div class="project-img">
                     <img src="./images/Dashboard.png" alt="">
                 </div> 
-                <h4 class="heading-text-style project-img-caption">02 Main Dashboard</h4>
+                <h4 class="heading-text-style project-img-caption">06 Main Dashboard (In Simulation)</h4>
             </div>
 
             <div class="project-img-container" data-aos="fade-up" data-aos-duration="2100"  data-aos-once="true"  data-aos-anchor-placement="top-center">
                 <div class="project-img">
                     <img src="./images/Dashboard-Process.png" alt="">
                 </div> 
-                <h4 class="heading-text-style project-img-caption">03 Main Dashboard (In Simulation)</h4>
+                <h4 class="heading-text-style project-img-caption">07 Main Dashboard (In Simulation)</h4>
             </div>
             
+            <div class="project-content-sections">
+                <h2 class="heading-text-style">04 Conclusion</h2>   
+                <div>
+                    <h3>Meeting our goals</h3>
+                    <p> 
+                        The team was successfully able to provide a fully working system within the given time constraints and were able to build a product that met our proposed goals.
+                    </p>
 
-            <!-- <div class="project-img">
-                <img src="./images/Form.png" alt="">
+                    <h3>Learnings</h3>
+                    <p> 
+                        The technology used in the project was fairly new to the team and it presented a steep learning curve. Especially figuring out device connectivity issues as each device had their own constraints which had to be kept in mind when building out the system. But overall the project did help understand the process of manipulating hardware devices using different software technologies.
+                    </p>
+
+                    <h3>Awards 🏆</h3>
+                    <p>
+                        1st place Capstone project 
+                        <br> 
+                        IT Best Capstone Award for Potential World Impact
+                    </p>
+                </div>
             </div>
-            <div class="project-img">
-                <img src="./images/Dashboard.png" alt="">
-            </div>
-            <div class="project-img">
-                <img src="./images/Dashboard-Process.png" alt="">
-            </div> -->
-            
+
             <h2 class="bigger-screen">Screenshots are available on the deskstop version of the site. Sorry!</h2>
         </div> 
         
