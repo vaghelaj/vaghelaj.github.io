@@ -36,7 +36,7 @@ a {
 }
 
 a:hover {
-    color: #ff10ff;
+    color: #1410ff;
     text-decoration: underline;
 }
 
@@ -105,7 +105,7 @@ ul {
 }
 
 .social:hover {
-    fill: #ff10ff;
+    fill: #1410ff;
 }
 /* Header End */
 
@@ -278,7 +278,7 @@ ul {
 
 .next-project-title svg {
     display: none;
-    fill: #ff10ff;
+    fill: #1410ff;
 }
 
 /* Project End */
@@ -328,7 +328,7 @@ ul {
 #contact-availability-ad h4 {
     font-size: 11px;
     font-weight: 500;
-    color: #ff10ff;
+    color: #1410ff;
     background-color: #fafafa;
     text-transform: uppercase;
     letter-spacing: 1.5px;
