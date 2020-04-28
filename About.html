@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" class="transition">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Jayesh Vaghela - Personal website, UI/UX designer based in Toronto">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Jayesh Vaghela | Portfolio</title>
+    <style>
+
+        hr {
+            border-color: #EEEDE9;
+            background-color: #EEEDE9; 
+        }
+
+        a {
+            color: #EEEDE9;
+        }
+
+        a.left
+        {
+            position: relative;
+        }
+
+        a.left:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 1.5px;
+        top: 19px;
+        bottom: 0;
+        left: 0;
+        background-color: #EEEDE9;
+        visibility: hidden;
+        transition: all 0.3s ease-in-out;
+        }
+
+        a.left:hover:before {
+            visibility: visible;
+            width: 100%;
+        }
+
+        a.right
+        {
+            position: relative;
+        }
+
+        a.right:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        top: 19px;
+        bottom: 0;
+        right: 0;
+        background-color: #EEEDE9;
+        visibility: hidden;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        }
+
+        a.right:hover:before {
+        visibility: visible;
+        width: 100%;
+        }
+
+        #bio-links a:hover {
+            text-decoration: underline;
+        }
+
+        .transition {
+            transition: background-color 1.5s ease-in-out;
+            -moz-transition: background-color 1.5s ease-in-out;
+            -o-transition: background-color 1.5s ease-in-out;
+            -webkit-transition: background-color 1.5s ease-in-out;
+        }
+
+        .animated {
+            background-color: #222222;
+            color: #EEEDE9;
+        }
+
+        #footer {
+            border-top: 1px solid #EEEDE9;
+        }
+    </style>
+</head>
+<body class="transition">
+    <div id="main-container" class="fade-in">
+        <div id="header">
+            <span id="home"><a href="./index.html" aria-label="Homepage">Jayesh Vaghela</a></span>
+            <span id="col-social">
+                <span id="info-header"><a href="./About.html" aria-label="Send an e-Mail" rel="noopener"  class="left delay" >Profile</a></span>
+                <span><a href="./Moodboard.html" aria-label="Send an e-Mail" rel="noopener"  class="right delay">Moodboard</a></span>
+            </span>
+        </div>
+
+        <div class="profile-overview">
+
+            <div>
+                <img id="about-self-img" src="./images/Self.png" alt="">
+            </div>
+
+            <div id="about-information">
+                <p class="section-heading-text">Hi — I’m Jayesh Vaghela</p>
+                <p id="bio">
+                    UX/UI Designer based in the Greater Toronto Area. I recently graduated from Sheridan College with a degree in Computer Science.
+                    <br> <br>
+                    In 2018, I had the opportunity to complete my 8 month Co-op at CIBC as a Innovation Engineer.  During my time there I was responsible for designing and developing web and mobile tools that enhance the CIBC employees experience.
+                </p>
+
+                <p class="section-heading-text">What I do</p>
+                <p id="bio">
+                    UX/UI Design, Web Design, App Design, Prototyping, Front-end Web Development, Data Visualisation.
+                </p>
+
+                <p id="bio-links">
+                    <span><a href="./images/JayeshVaghela-Resume.pdf" target="_blank" aria-label="Resume" rel="noopener">Curriculum vitae</a></span> · <span><a href="https://www.linkedin.com/in/jayesh-vaghela-b7836114a" target="_blank" aria-label="LinkedIn" rel="noopener">LinkedIn</a></span> · <span><a href="https://www.behance.net/vaghelaj1173" target="_blank" aria-label="Behance" rel="noopener">Behance</a></span>
+                </p>
+<!-- 
+                <hr size="1">
+
+                <p class="section-heading-text">Interests</p>
+                <p id="bio">
+                    Some of interests include playing Golf, supporting my favourite F1 team or spending time learning about photography and different design.
+                </p> -->
+
+                <!-- <p class="section-heading-text">Links</p>
+                <div id="bio">
+                    <p><span><a href="./images/JayeshVaghela-Resume.pdf" target="_blank" aria-label="Resume" rel="noopener">Résumé</a></span></p>
+                    <p><span><a href="/" aria-label="Send an e-Mail" rel="noopener">LinkedIn</a></span></p>
+                    <p><span><a href="/" aria-label="Send an e-Mail" rel="noopener">Behance</a></span></p>
+                </div> -->
+
+            </div>
+        </div>
+
+        <div id="footer">
+            <span id="col-email"><a href="mailto:jmv707@outlook.com?subject=&body=Place your message here." aria-label="Send an e-Mail" rel="noopener">jmv707@outlook.com</a></span>
+            <span id="col-social">
+                <span><a href="https://www.linkedin.com/in/jayesh-vaghela-b7836114a" target="_blank" aria-label="LinkedIn" rel="noopener">LinkedIn</a></span>
+                <span>-</span>
+                <span><a href="https://www.behance.net/vaghelaj1173" target="_blank" aria-label="Behance" rel="noopener">Behance</a></span>
+            </span>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="./BackTop.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.transition').addClass('animated');
+        });
+    </script>
+</body>
+</html>
