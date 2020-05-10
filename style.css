@@ -191,8 +191,7 @@ background: #e6e4dd; /* Gecko Browsers */
 }
 
 #about-paragraph span {
-    font-family: 'Inter-Medium', Helvetica, sans-serif;
-    margin-bottom: 8px;
+    text-decoration: underline;
 }
 
 /* About End */
