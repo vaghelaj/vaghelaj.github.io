@@ -452,7 +452,7 @@ sup {
 }
 
 .project-content-sections h3 {
-    color: #a6a39e;
+    color: #281a0b;
     margin: 0 0 15.5px 0;
     margin-bottom: 8.5px;
     font-weight: 400;
@@ -614,10 +614,6 @@ sup {
 
     #about-information {
         margin: 0;
-    }
-
-    .project-introduction {
-        /* width: 72%; */
     }
 
     #project-yt-video {
