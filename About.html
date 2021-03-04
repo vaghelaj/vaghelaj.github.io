@@ -10,119 +10,15 @@
     <link rel="stylesheet" href="style.css">
     <title>Jayesh Vaghela | Portfolio</title>
     <style>
-        /* body, html, #header {
-            background: -webkit-radial-gradient(bottom left,#F6B36C 0%,#FFEFDD,#FFFFFF);
-            background: radial-gradient(at bottom left,#F6B36C 0%,#FFEFDD,#FFFFFF);
-            
-            background-color: #283621;
-            color: #93B3D0;
-            border-color: #93B3D0;
-        } */
-        #profile-container {
-            display: flex;
-            justify-content: space-between;
-            /* align-items: flex-start; */
-            flex-flow: row wrap-reverse;
-            margin: 110px 0 250px 0;
+        #About-Me-Container {
+            margin-bottom: 250px;
         }
 
-        #profile-container-1 {
-            /* max-width: 200px; */
-            width: 240px;
-        }
-
-        #profile-container-2 {
-            width: 580px;
-            margin-bottom: 70px;
-        }
-
-        #profile-container-1 p,
-        #profile-container-1 a {
-            font-size: 16px;
-        }
-
-        #profile-capabilities {
+        #About-Me-Container h1 {
+            font-family:'Times New Roman', Times, serif;
+            font-style: italic;
+            font-size: 40px;
             margin-bottom: 50px;
-        }
-
-        #profile-capabilities p {
-            /* font-weight: 400; */
-            font-size: 16px;
-        }
-
-        .profile-header {
-            font-family: 'Frank Ruhl Libre', serif;
-            font-size: 22px;
-            font-weight: 400;
-            color: #a6a39e;
-            margin-top: 0;
-        }
-
-        .profile-text {
-            font-size: 16px;
-            line-height: 25px;
-            margin-bottom: 12px;
-        }
-
-        #resume p {
-            /* font-weight: 400; */
-            font-size: 16.5px;
-        }
-
-        #resume-link {
-            line-height: 24px;
-        }
-
-        #resume-link a {
-            font-weight: 600;
-        }
-
-        #resume-link a:hover {
-            text-decoration: underline;
-        }
-
-        #about-heading-text {
-            font-family: 'Frank Ruhl Libre', serif;
-            max-width: 745px;
-            font-size: 35px;
-            margin-bottom: 28px;
-            line-height: 45px;
-        }
-
-        #profile-interest-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            flex-flow: row wrap;
-            margin-top: 0;
-        }
-
-        .profile-test {
-            width: 100%;
-            max-width: 270px;
-            margin: 50px 0 0 0;
-            /* flex-grow: 1; */
-            border-top: #D4CFC7 solid 0.2px;
-        }
-
-        .profile-item-title {
-            font-family: 'Frank Ruhl Libre', serif;
-            font-size: 19px;
-            margin: 15px 20px 10px 0;
-        }
-
-        .profile-item-description {
-            line-height: 24px;
-            font-size: 16px;
-        }
-
-        .profile-item-description a {
-            font-weight: 300;
-            cursor: pointer;
-        }
-
-        .profile-item-description a:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
@@ -132,143 +28,28 @@
         <div id="header">
             <span id="home"><a href="./index.html" aria-label="Homepage">Jayesh Vaghela</a></span>
             <span id="header-top">
-                <span class="info-header"><a href="./About.html" aria-label="Send an e-Mail" rel="noopener"
-                        class="left delay">About</a></span>
+                <span class="info-header" style="margin-right: 25px;"><a href="./About.html" aria-label="Send an e-Mail" rel="noopener"
+                    class="left delay">About</a></span>
                 <span class="info-header header-left"><a href="./Moodboard.html" aria-label="Send an e-Mail" rel="noopener"
                         class="right delay">Moodboard</a></span>
             </span>
         </div>
 
+        <div id="About-Me-Container">
+            <h1>A bit about me ...</h1>
 
-        <div id="profile-container">
-            <div id="profile-container-1">
-                <div id="profile-capabilities">
-                    <h1 class="profile-header">What I do</h1>
-
-                    <p style="line-height: 27px;">
-                        UX/UI Design
-                        <br>
-                        Web Design <br> Mobile Design <br> Prototyping <br> Front-end Web Development <br> Data
-                        Visualisation
-                    </p>
-                </div>
-
-                <div id="resume">
-                    <!-- <h1 class="profile-header">
-                        Other Information
-                    </h1> -->
-
-                    <!-- <p id="resume-link">
-                        Check out my <a href="./images/JayeshVaghela-Resume.pdf" target="_blank" aria-label="Resume"
-                            rel="noopener">Resume</a> for more details
-                    </p> -->
-                </div>
-            </div>
-
-            <div id="profile-container-2">
-                <p id="about-heading-text">
-                    Hi, I'm Jayesh, UX/UI Designer based in the Greater Toronto Area.
-                </p>
-                <p class="profile-text">
-                    I recently graduated from Sheridan College with a degree in Computer
-                    Science.
-                </p>
-                <p class="profile-text">
-                    In 2018, I had the opportunity to complete my 8 month Co-op at Canadian Imperial Bank of Commerce as a Innovation Engineer. During
-                    my time there I was responsible for designing and developing web and mobile tools that benefit CIBC employees experience.
-                </p>
-
-                <div id="profile-interest-container">
-                    <div class="profile-test">
-                        <p class="profile-item-title">Things I enjoy,</p>
-                        <p class="profile-item-description">Photography, Watches, Formula 1, Golf</p>
-                    </div>
-
-                    <div class="profile-test">
-                        <p class="profile-item-title">You can find me on,</p>
-                        <p class="profile-item-description">  <a class="footer" href="https://www.linkedin.com/in/jayesh-vaghela-b7836114a" target="_blank"
-                            aria-label="LinkedIn" rel="noopener">LinkedIn</a>, <a href="https://www.behance.net/vaghelaj1173" target="_blank"
-                            aria-label="Behance" rel="noopener">Behance</a></p>
-                    </div>
-                </div>
-                <!-- 
-                <svg id="watch" width="200" height="200">
-                    <g>
-                        <circle id="circle" style="stroke: #fff; stroke-width: 1px; fill:#fff" cx="100" cy="100" r="50">
-                        </circle>
-                    </g>
-                    <g>
-                        <line x1="100" y1="100" x2="100" y2="80" transform="rotate(80 100 100)"
-                            style="stroke-width: 2px; stroke: #afafaf;" stroke-linecap="round" id="hourhand">
-                            <animatetransform attributeName="transform" attributeType="XML" type="rotate" dur="43200s"
-                                repeatCount="indefinite" />
-                        </line>
-                        <line x1="100" y1="100" x2="100" y2="60" style="stroke-width: 2px; stroke: #afafaf;"
-                            stroke-linecap="round" id="minutehand">
-                            <animatetransform attributeName="transform" attributeType="XML" type="rotate" dur="3600s"
-                                repeatCount="indefinite" />
-                        </line>
-                        <line x1="100" y1="100" x2="100" y2="70" style="stroke-width: 1px; stroke: #afafaf;"
-                            stroke-linecap="round" id="secondhand">
-                            <animatetransform attributeName="transform" attributeType="XML" type="rotate" dur="60s"
-                                repeatCount="indefinite" />
-                        </line>
-                    </g>
-                    <circle id="center" style="fill:#afafaf" cx="100" cy="100" r="1"></circle>
-                </svg> -->
-            </div>
+            <p>Hi, I'm Jayesh - UX/UI Designer based in Mississauga, Ontario. I recently graduated from Sheridan College with a degree in Computer Science.</p>
+            <br>
+            <p>In 2018, I had the opportunity to complete my 8 month Co-op at Canadian Imperial Bank of Commerce as a Innovation Engineer. During my time there I was responsible for designing and developing digital products that benefit CIBC employees.</p>
+            <br>
+            <p>When I am not designing, I enjoy Photography, Watches, Formula 1, Golf.</p>
         </div>
 
-
-        <div id="footer">
-            <span id="col-email">Jayesh Vaghela © 2021</span>
-            <span id="footer-top">
-                <a href="mailto:jmv707@outlook.com?subject=&body=Place your message here."
-                    aria-label="Send an e-Mail" rel="noopener">Email</a>
-                <a class="footer-left" href="https://www.linkedin.com/in/jayesh-vaghela-b7836114a" target="_blank"
-                    aria-label="LinkedIn" rel="noopener">LinkedIn</a>
-                <a class="footer-left" href="https://www.behance.net/vaghelaj1173" target="_blank"
-                    aria-label="Behance" rel="noopener">Behance</a>
-            </span>
+        <div id="Links">
+            <a href="mailto:jayesh_vaghela@outlook.com?subject=&body=Place your message here.">Email</a> / <a href="https://www.linkedin.com/in/jayesh-vaghela-b7836114a">LinkedIn</a> / <a href="https://www.behance.net/vaghelaj1173">Behance</a>
         </div>
+
     </div>
-
-    <!-- <script>
-        var hands = [];
-        hands.push(document.querySelector('#secondhand > *'));
-        hands.push(document.querySelector('#minutehand > *'));
-        hands.push(document.querySelector('#hourhand > *'));
-
-        var cx = 100;
-        var cy = 100;
-
-        function shifter(val) {
-            return [val, cx, cy].join(' ');
-        }
-
-        var date = new Date();
-        var hoursAngle = 360 * date.getHours() / 12 + date.getMinutes() / 2;
-        var minuteAngle = 360 * date.getMinutes() / 60;
-        var secAngle = 360 * date.getSeconds() / 60;
-
-        hands[0].setAttribute('from', shifter(secAngle));
-        hands[0].setAttribute('to', shifter(secAngle + 360));
-        hands[1].setAttribute('from', shifter(minuteAngle));
-        hands[1].setAttribute('to', shifter(minuteAngle + 360));
-        hands[2].setAttribute('from', shifter(hoursAngle));
-        hands[2].setAttribute('to', shifter(hoursAngle + 360));
-
-        for (var i = 1; i <= 12; i++) {
-            var el = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-            el.setAttribute('x1', '100');
-            el.setAttribute('y1', '50');
-            el.setAttribute('x2', '100');
-            el.setAttribute('y2', '59');
-            el.setAttribute('transform', 'rotate(' + (i * 360 / 12) + ' 100 100)');
-            el.setAttribute('style', 'stroke: #afafaf;');
-            document.querySelector('svg').appendChild(el);
-        }
-    </script> -->
 </body>
 
 </html>

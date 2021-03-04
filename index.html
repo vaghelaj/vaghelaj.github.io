@@ -1,161 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="Jayesh Vaghela - Personal website, UI/UX designer based in Toronto">
     <link rel="shortcut icon" href="./images/favicontest.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
     <title>Jayesh Vaghela | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body class="fade-in">
     <div id="main-container">
         <div id="header">
             <span id="home"><a href="./index.html" aria-label="Homepage">Jayesh Vaghela</a></span>
             <span id="header-top">
-                <span class="info-header"><a href="./About.html" aria-label="Send an e-Mail" rel="noopener"
+                <span class="info-header" style="margin-right: 25px;"><a href="./About.html" aria-label="Send an e-Mail" rel="noopener"
                         class="left delay">About</a></span>
-                <span class="info-header header-left"><a href="./Moodboard.html" aria-label="Send an e-Mail"
-                        rel="noopener" class="right delay">Moodboard</a></span>
+                <span class="info-header header-left"><a href="./Moodboard.html" aria-label="Send an e-Mail" rel="noopener"
+                        class="right delay">Moodboard</a></span>
             </span>
         </div>
 
         <div id="about-container">
-            <span>
-                <p id="about-big-text">
-                    Hi, I'm Jayesh
-                </p>
-                <p id="about-para">
-                    UX/UI Designer specialising in designing experiences and interfaces.
-                    Previously at CIBC. <span>Currently looking for new design opportunities.</span>
-                </p>
-            </span>
-
+            <h1 id="about-big-text">
+                Hi - I'm Jayesh, a UX/UI Designer specialising in designing experiences and interfaces. Previously at CIBC. Currently looking for new design opportunities.
+            </h1>
         </div>
 
-
-        <div id="work-container">
-            <p class="section-heading-text">Work</p>
-
-            <div id="work-item-container">
-                <div class="test">
-                    <p class="project-item-title">Font Squirrel Redesign</p>
-                    <p class="project-item-text">UI Design, Web design</p>
-
-                    <p class="project-item-description">Website redesign for the Font Squirrel website.</p>
-
-                    <p class="project-link" id="project-link-1"><a href="./FontSquirrel.html"
-                            class="project-item-link">View more</a></p>
+        <div id="sub-heading"><p>Recent Work</p></div>  
+        <div id="work-container">  
+            <div class="work-item">
+                <img src="./images/Intro-Homepage.png" alt="">
+                <h1>Font Squirrel Redesign</h1>
+                <div class="work-item-flex">
+                    <p>Website redesign for the Font Squirrel website.</p>
+                    <a href="./FontSquirrel.html">+ Project Information</a>
                 </div>
+            </div>
 
-                <div class="test">
-                    <p class="project-item-title">Fire Training Simulator</p>
-                    <p class="project-item-text">Case Study, Android Design, Microsoft Hololens</p>
-
-                    <p class="project-item-description">An augmented reality solution that conducts fire safety training
-                        to simulate real life scenarios.</p>
-
-                    <p class="project-link" id="project-link-1"><a href="./fireTraining.html"
-                            class="project-item-link">View more</a></p>
+            <div class="work-item">
+                <img src="./images/FireTraining-Work.png" alt="">
+                <h1>Fire Training Simulator</h1>
+                <div class="work-item-flex">
+                    <p>An augmented reality solution that conducts fire safety training to simulate real life scenarios.</p>
+                    <a href="./fireTraining.html">+ Project Information</a>
                 </div>
-                <div class="test">
-                    <p class="project-item-title">Take the Pledge</p>
-                    <p class="project-item-text">Case Study, Web Design</p>
+            </div>
 
-                    <p class="project-item-description">Tool that helps Burlington Fire Department be up-to-date with
-                        residantial fire alarm systems.</p>
-
-                    <p class="project-link" id="project-link-2"><a href="./takeThePledge.html"
-                            class="project-item-link">View more</a></p>
-                </div>
-                <!-- <div class="test">
-                    <p class="project-item-title">Golf Club</p>
-                    <p class="project-item-text">UI Design, Web Design</p>
-
-                    <p class="project-item-description">A concept website for everything golf related such as the latest
-                        news, gear etc.</p>
-
-                    <p class="project-link" id="project-link-3"><a href="./GolfClubUI.html"
-                            class="project-item-link">View more</a></p>
-                </div> -->
-                <div class="test">
-                    <p class="project-item-title">Hotel App</p>
-                    <p class="project-item-text">UI Design, App Design</p>
-
-                    <p class="project-item-description">A concept iOS hotel booking app.</p>
-
-                    <p class="project-link" id="project-link-4"> <a href="./hotelAppUI.html"
-                            class="project-item-link">View more</a></p>
+            <div class="work-item">
+                <img src="./images/TakethePledge-Work.png" alt="">
+                <h1>Take the Pledge</h1>
+                <div class="work-item-flex">
+                    <p>Tool that helps Burlington Fire Department be up-to-date with residantial fire alarm systems.</p>
+                    <a href="./takeThePledge.html">+ Project Information</a>
                 </div>
             </div>
         </div>
 
-        <div id="footer">
-            <span id="col-email">Jayesh Vaghela © 2021</span>
-            <span id="footer-top">
-                <a href="mailto:jmv707@outlook.com?subject=&body=Place your message here." aria-label="Send an e-Mail"
-                    rel="noopener">Email</a>
-                <a class="footer-left" href="https://www.linkedin.com/in/jayesh-vaghela-b7836114a" target="_blank"
-                    aria-label="LinkedIn" rel="noopener">LinkedIn</a>
-                <a class="footer-left" href="https://www.behance.net/vaghelaj1173" target="_blank" aria-label="Behance"
-                    rel="noopener">Behance</a>
-            </span>
+        <div id="Links">
+            <a href="mailto:jayesh_vaghela@outlook.com?subject=&body=Place your message here.">Email</a> / <a href="https://www.linkedin.com/in/jayesh-vaghela-b7836114a">LinkedIn</a> / <a href="https://www.behance.net/vaghelaj1173">Behance</a>
         </div>
+
     </div>
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-    <script>
-        $("a.delay[href]").click(function (e) {
-            e.preventDefault();
-            if (this.href) {
-                var target = this.href;
-                setTimeout(function () {
-                    window.location = target;
-                }, 100);
-            }
-        });
-
-        // $('#project-link-1').on('mouseenter', function () {
-        //     $('body').css("background-color", "#D6CECE");
-        //     $('body').css("transition", "0.3s");
-        // })
-        // $('#project-link-1').on('mouseleave', function () {
-        //     $('body').css("background-color", "white");
-        // })
-
-        // $('#project-link-2').on('mouseenter', function () {
-        //     $('body').css("background-color", "#CECFD6");
-        //     $('body').css("transition", "0.3s");
-        // })
-        // $('#project-link-2').on('mouseleave', function () {
-        //     $('body').css("background-color", "white");
-        // })
-
-        // $('#project-link-3').on('mouseenter', function () {
-        //     $('body').css("background-color", "#CED6CF");
-        //     $('body').css("transition", "0.3s");
-        // })
-        // $('#project-link-3').on('mouseleave', function () {
-        //     $('body').css("background-color", "white");
-        // })
-
-        // $('#project-link-4').on('mouseenter', function () {
-        //     $('body').css("background-color", "#D4CED6");
-        //     $('body').css("transition", "0.3s");
-        // })
-        // $('#project-link-4').on('mouseleave', function () {
-        //     $('body').css("background-color", "white");
-        // })
-    </script>
-
-    <script>
-        AOS.init();
-    </script>
+   
 </body>
-
 </html>
